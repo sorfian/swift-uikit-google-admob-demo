@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		758E10D858CD6D9C8459F153 /* Pods_Google_Ad_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36903889BC685CA24EF49A3 /* Pods_Google_Ad_Demo.framework */; };
 		D667B42E29D86439002DB125 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D667B42D29D86439002DB125 /* AppDelegate.swift */; };
 		D667B43029D86439002DB125 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D667B42F29D86439002DB125 /* SceneDelegate.swift */; };
-		D667B43229D86439002DB125 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D667B43129D86439002DB125 /* ViewController.swift */; };
 		D667B43529D86439002DB125 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D667B43329D86439002DB125 /* Main.storyboard */; };
 		D667B43729D8643A002DB125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D667B43629D8643A002DB125 /* Assets.xcassets */; };
 		D667B43A29D8643A002DB125 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D667B43829D8643A002DB125 /* LaunchScreen.storyboard */; };
+		D667B44229D864E0002DB125 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D667B44129D864E0002DB125 /* NewsTableViewController.swift */; };
+		D667B44429D86513002DB125 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D667B44329D86513002DB125 /* NewsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B7016EA50DD64E0C01B144BE /* Pods-Google Ad Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google Ad Demo.release.xcconfig"; path = "Target Support Files/Pods-Google Ad Demo/Pods-Google Ad Demo.release.xcconfig"; sourceTree = "<group>"; };
+		D36903889BC685CA24EF49A3 /* Pods_Google_Ad_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Google_Ad_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D667B42A29D86439002DB125 /* Google Ad Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google Ad Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D667B42D29D86439002DB125 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D667B42F29D86439002DB125 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D667B43129D86439002DB125 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D667B43429D86439002DB125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D667B43629D8643A002DB125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D667B43929D8643A002DB125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D667B43B29D8643A002DB125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D667B44129D864E0002DB125 /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		D667B44329D86513002DB125 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		F41ABF28CDED37386620606A /* Pods-Google Ad Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google Ad Demo.debug.xcconfig"; path = "Target Support Files/Pods-Google Ad Demo/Pods-Google Ad Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				758E10D858CD6D9C8459F153 /* Pods_Google_Ad_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		095A417D76DF0CA35468AE4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F41ABF28CDED37386620606A /* Pods-Google Ad Demo.debug.xcconfig */,
+				B7016EA50DD64E0C01B144BE /* Pods-Google Ad Demo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B3513CB723F0CC2400141E58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D36903889BC685CA24EF49A3 /* Pods_Google_Ad_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D667B42129D86439002DB125 = {
 			isa = PBXGroup;
 			children = (
 				D667B42C29D86439002DB125 /* Google Ad Demo */,
 				D667B42B29D86439002DB125 /* Products */,
+				095A417D76DF0CA35468AE4A /* Pods */,
+				B3513CB723F0CC2400141E58 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +85,12 @@
 			children = (
 				D667B42D29D86439002DB125 /* AppDelegate.swift */,
 				D667B42F29D86439002DB125 /* SceneDelegate.swift */,
-				D667B43129D86439002DB125 /* ViewController.swift */,
 				D667B43329D86439002DB125 /* Main.storyboard */,
 				D667B43629D8643A002DB125 /* Assets.xcassets */,
 				D667B43829D8643A002DB125 /* LaunchScreen.storyboard */,
 				D667B43B29D8643A002DB125 /* Info.plist */,
+				D667B44129D864E0002DB125 /* NewsTableViewController.swift */,
+				D667B44329D86513002DB125 /* NewsTableViewCell.swift */,
 			);
 			path = "Google Ad Demo";
 			sourceTree = "<group>";
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D667B43E29D8643A002DB125 /* Build configuration list for PBXNativeTarget "Google Ad Demo" */;
 			buildPhases = (
+				95E70685EE34F0F04D9E6095 /* [CP] Check Pods Manifest.lock */,
 				D667B42629D86439002DB125 /* Sources */,
 				D667B42729D86439002DB125 /* Frameworks */,
 				D667B42829D86439002DB125 /* Resources */,
+				8E0DE4720DCD3AF1D522EE9D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +163,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8E0DE4720DCD3AF1D522EE9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Google Ad Demo/Pods-Google Ad Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Google Ad Demo/Pods-Google Ad Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Google Ad Demo/Pods-Google Ad Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95E70685EE34F0F04D9E6095 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Google Ad Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D667B42629D86439002DB125 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D667B43229D86439002DB125 /* ViewController.swift in Sources */,
 				D667B42E29D86439002DB125 /* AppDelegate.swift in Sources */,
 				D667B43029D86439002DB125 /* SceneDelegate.swift in Sources */,
+				D667B44429D86513002DB125 /* NewsTableViewCell.swift in Sources */,
+				D667B44229D864E0002DB125 /* NewsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +355,7 @@
 		};
 		D667B43F29D8643A002DB125 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F41ABF28CDED37386620606A /* Pods-Google Ad Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +384,7 @@
 		};
 		D667B44029D8643A002DB125 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7016EA50DD64E0C01B144BE /* Pods-Google Ad Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
